@@ -205,6 +205,7 @@ Smart_Logistics_Delivery_Prediction/
 │
 ├── config.py
 ├── train_model.py
+├── preprocess_data.py
 ├── run_app.bat
 ├── run_app.ps1
 └── README.md
@@ -232,7 +233,7 @@ Tests cover:
 All in `requirements.txt`:
 
 * pandas, numpy
-* scikit-learn, lightgbm
+* scikit-learn, lightgbm, statsmodels
 * streamlit, plotly, seaborn
 * folium, geopy
 * joblib, python-dotenv
@@ -253,6 +254,7 @@ pip install -r requirements.txt
 | Start app     | `run_app.bat`                                           |
 | Run manually  | `streamlit run app/streamlit_app.py`                    |
 | Custom port   | `streamlit run app/streamlit_app.py --server.port 8502` |
+| Preprocess Data| `python preprocess_data.py`                             |
 | Train model   | `python train_model.py`                                 |
 | Tests         | `python tests.py`                                       |
 | Activate venv | `.venv\Scripts\activate`                                |
@@ -266,6 +268,7 @@ pip install -r requirements.txt
 | "Module not found"       | Reinstall dependencies                 |
 | Port 8501 busy           | Use `--server.port 8502`               |
 | Model missing            | Run `train_model.py`                   |
+| Data loading error       | Run `python preprocess_data.py`        |
 | Data not loading         | Ensure CSV in `data/raw/`              |
 | PowerShell script denied | Run `Set-ExecutionPolicy RemoteSigned` |
 
