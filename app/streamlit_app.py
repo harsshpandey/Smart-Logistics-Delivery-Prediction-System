@@ -72,7 +72,7 @@ if 'page' not in st.session_state:
     st.session_state.page = "📊 Dataset Overview"
 
 # Sidebar Navigation
-st.sidebar.title("🚚 Smart Logistics Delivery Prediction")
+st.sidebar.title("🚚 Smart Logistics: Zomato Delivery Prediction")
 st.sidebar.markdown("---")
 
 page = st.sidebar.radio(

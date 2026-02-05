@@ -46,7 +46,7 @@ MIN_DISTANCE = 0.5
 MAX_DISTANCE = 30.0
 
 # UI Configuration
-APP_TITLE = "Smart Logistics - Delivery Prediction"
+APP_TITLE = "Smart Logistics: Zomato Delivery Prediction"
 APP_ICON = "🚚"
 THEME_COLOR = "#FF4B4B"
 PAGE_WIDTH = "wide"

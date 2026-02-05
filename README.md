@@ -1,4 +1,4 @@
-# 🚚 **Smart Logistics Delivery Prediction System**
+# 🚚 **Smart Logistics: Zomato Delivery Prediction System**
 
 A machine-learning powered **Streamlit dashboard** for predicting food delivery times using real-world factors such as weather, traffic, vehicle type, distance, delivery person rating, and more.
 
@@ -33,7 +33,7 @@ streamlit run app/streamlit_app.py
 ## 📋 **First-Time Setup**
 
 ```bash
-cd "path/to/Smart_Logistics_Delivery_Prediction"
+cd "path/to/Smart-Logistics-Delivery-Prediction-System"
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -188,7 +188,7 @@ MODEL_PATH = "models/delivery_time_model.pkl"
 ## 📁 **Project Structure**
 
 ```
-Smart_Logistics_Delivery_Prediction/
+Smart-Logistics-Delivery-Prediction-System/
 │
 ├── app/
 │   ├── streamlit_app.py
